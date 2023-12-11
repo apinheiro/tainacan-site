@@ -35,3 +35,12 @@ footer .memoria a{
 .barra-branca{
     background-color: #ffffff;
 }
+
+.noticias-bg{
+    background-color: #f2e1ac !important;
+}
+
+.noticias-item {
+    padding: 30px 10px;
+    background-color: transparent !important;
+}
