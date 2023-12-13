@@ -1,8 +1,13 @@
+body {
+    padding-top: 0 !important;
+}
 .navbar-spu{
-    background-color: #f2e6c2;
     color: #260101;
 }
 
+.h-200{
+    height: 300px !important;
+}
 .navbar-spu a{
     color: #805918;
 }
@@ -10,7 +15,7 @@
 .active a{
     color: #260101;
 }
-.bg-spu{
+.spu-bg-2{
     background-color: #f2e6c2;
 }
 
@@ -36,7 +41,7 @@ footer .memoria a{
     background-color: #ffffff;
 }
 
-.noticias-bg{
+.spu-bg-1{
     background-color: #f2e1ac !important;
 }
 
