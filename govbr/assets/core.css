@@ -32487,3 +32487,9 @@ button.br-item:not(:disabled):active {
   background-color: white;
   background-image: url("https://apinheiro.github.io/tainacan-site/govbr/imagens/corte.jpg");
 }
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
