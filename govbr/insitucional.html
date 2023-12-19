@@ -205,32 +205,35 @@
                   </li> -->
                 </ul>
               </div>
-
+              <h2>Institucional</h2>
+              <p>Acervo de documentos produzidos institucionalmente.</p>
+              <p>Texto para uma apresentação formal</p>
               
+              <h3>Coleções</h3>
               <div class="row ">
-                <div class="col-lg-3 text-center">
-                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/lagoa.png" alt="Generic placeholder image" width="140" height="140">
-                  <h4><a href="#">Publicações</a></h4>
+                <div class="col-lg-2 text-center">
+                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/lagoa.png" alt="Generic placeholder image" width="80">
+                  <h6><a href="#">Publicações</a></h6>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3 text-center">
-                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="140" height="140">
-                  <h4><a href="#">Legislação e Normas</a></h4>
+                <div class="col-lg-2 text-center">
+                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="80">
+                  <h6><a href="#">Legislação e Normas</a></h6>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3 text-center">
-                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="140" height="140">
-                  <h4><a href="#">Manuais e orientações</a></h4>
+                <div class="col-lg-2 text-center">
+                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="80">
+                  <h6><a href="#">Manuais e orientações</a></h6>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3 text-center">
-                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="140" height="140">
-                  <h4><a href="#">Pareceres</a></h4>
+                <div class="col-lg-2 text-center">
+                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="80">
+                  <h6><a href="#">Pareceres</a><h6>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3 text-center">
-                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="140" height="140">
-                  <h4><a href="#">Cursos/capacitações</a></h4>
+                <div class="col-lg-2 text-center">
+                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="80">
+                  <h6><a href="#">Cursos e capacitações</a></h6>
                 </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3 text-center">
-                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="140" height="140">
-                  <h4><a href="#">Estudos, planos e projetos</a></h4>
+                <div class="col-lg-2 text-center">
+                  <img class="rounder-lg" src="https://apinheiro.github.io/tainacan-site/imagens/portos.png" alt="Generic placeholder image" width="80">
+                  <h6><a href="#">Estudos, planos e projetos</a></h6>
                 </div><!-- /.col-lg-4 -->
               </div><!-- /.row -->
 
@@ -243,7 +246,70 @@
                     <button class="br-button circle small" type="button" aria-label="Pesquisar"><i class="fas fa-search" aria-hidden="true"></i>
                     </button>
                   </div>
-                  
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-md-3">
+                  <h6>Filtros</h6>
+                  <div class="br-input">
+                      
+                    <label for="tainacan_title">Assunto</label>
+                    <input type="text" id="tainacan_title" name="tainacan_title">
+                  </div>
+                    <br-select
+                      label="Grupos"
+                      placeholder="Selecione a coleção"
+                      multiple
+                      options='[
+                        { "id": 1,
+                          "value": "Publicações",
+                          "selected": false
+                        },
+                        {"id": 2,
+                         "value": "Legislação e Normas",
+                         "selected": false
+                        },
+                        {"id": 2,
+                         "value": "Manuais e Orientações",
+                         "selected": false
+                        },
+                        {"id": 2,
+                         "value": "Pareceres",
+                         "selected": false
+                        },
+                        {"id": 2,
+                         "value": "Curso/Capacitações",
+                         "selected": false
+                        },
+                        {"id": 2,
+                         "value": "Estudos, planos e projetos",
+                         "selected": false
+                        },
+                        {"id": 2,
+                         "value": "Legislação e Normas",
+                         "selected": false
+                        }
+                      ]'
+                    >
+                  </br-select>
+
+                </div>
+                <div class="col-md-9">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="br-input">
+                        <label for="ordenacao">Ordem</label>
+                        <select class="input" id="ordenacao">
+                          <option value="1">Crescente</option>
+                          <option value="1">Decrescente</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    teste
+                  </div>
                 </div>
               </div>
               
@@ -344,6 +410,8 @@
 
     <script src="https://apinheiro.github.io/tainacan-site/govbr/assets/core-init.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="https://unpkg.com/@govbr-ds/webcomponents@1.15.0/dist/webcomponents.umd.min.js"></script>
     
 
     <script>
